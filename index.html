@@ -3,19 +3,31 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}</style>
-</head>
-<body>
-<title>LISBON Agência de Eventos</title>
-<meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="LISBON: suporte operacional para feiras, congressos e eventos corporativos em São Paulo. Montagem de produtos, staff de apoio, recepção e produção.">
+<title>LISBON Agência de Eventos | Suporte operacional para feiras em São Paulo</title>
+<meta name="description" content="Agência de eventos em São Paulo: montagem de produtos, carregadores, limpeza, recepcionistas bilíngues e produção de vídeo para feiras, congressos e eventos corporativos.">
+<link rel="canonical" href="https://lisbonservice.com.br/">
+<meta name="robots" content="index,follow">
 <meta name="theme-color" content="#0b0b0b">
+<link rel="icon" type="image/png" href="/icon-512.png">
+<link rel="apple-touch-icon" href="/icon-512.png">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="LISBON Agência de Eventos">
+<meta property="og:title" content="LISBON Agência de Eventos | Suporte operacional para feiras">
+<meta property="og:description" content="Agência de eventos em São Paulo: montagem de produtos, carregadores, limpeza, recepcionistas bilíngues e produção de vídeo para feiras, congressos e eventos corporativos.">
+<meta property="og:url" content="https://lisbonservice.com.br/">
+<meta property="og:image" content="https://lisbonservice.com.br/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Archivo:wght@400;500;600;700&display=swap">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "LocalBusiness", "name": "LISBON Agência de Eventos", "alternateName": "LISBON", "url": "https://lisbonservice.com.br/", "image": "https://lisbonservice.com.br/og.jpg", "logo": "https://lisbonservice.com.br/icon-512.png", "description": "Agência de eventos em São Paulo: montagem de produtos, carregadores, limpeza, recepcionistas bilíngues e produção de vídeo para feiras, congressos e eventos corporativos.", "telephone": "+55-11-96194-1858", "email": "contato@lisbonservice.com.br", "address": {"@type": "PostalAddress", "addressLocality": "Taboão da Serra", "addressRegion": "SP", "addressCountry": "BR"}, "areaServed": [{"@type": "City", "name": "São Paulo"}, {"@type": "State", "name": "São Paulo"}], "sameAs": ["https://www.instagram.com/lisbonservice_/"]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Vocês fornecem carregadores para feiras em São Paulo?", "acceptedAnswer": {"@type": "Answer", "text": "Sim. Fornecemos carregadores para carga e descarga de caminhões, movimentação de materiais no pavilhão e apoio na montagem e desmontagem do estande, em São Paulo e região."}}, {"@type": "Question", "name": "A LISBON monta estandes?", "acceptedAnswer": {"@type": "Answer", "text": "Não. Montamos os produtos, displays e kits que vão dentro do estande. Para montadoras, fornecemos carregadores e equipe de limpeza como apoio."}}, {"@type": "Question", "name": "Vocês têm recepcionistas bilíngues e promotores para eventos?", "acceptedAnswer": {"@type": "Answer", "text": "Sim. Temos recepcionistas e promotores receptivos e bilíngues, além de tradutores, para feiras, congressos e eventos corporativos."}}, {"@type": "Question", "name": "Vocês fazem limpeza de estande durante a feira?", "acceptedAnswer": {"@type": "Answer", "text": "Sim. Fazemos limpeza de estande antes da abertura, durante os dias de feira e na entrega após a desmontagem."}}, {"@type": "Question", "name": "Vocês gravam vídeo e tiram fotos do estande?", "acceptedAnswer": {"@type": "Answer", "text": "Sim. Nosso videomaker faz a cobertura com câmeras profissionais e drone e entrega vídeos prontos para postar nas redes sociais, além das fotos."}}, {"@type": "Question", "name": "Como peço um orçamento?", "acceptedAnswer": {"@type": "Answer", "text": "Mande pelo WhatsApp 11 96194-1858 o nome da feira, as datas, o tamanho do estande e o que você precisa. Respondemos com a equipe dimensionada e o orçamento fechado."}}]}</script>
 <style>
 /* Layout: uma coluna larga com margens iguais; cada seção muda de composição (foto grande, linhas de serviço, galeria, campo amarelo, contato em tipo grande). Faixa de sinalização = marca. */
-:root{
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
   --ground:#0b0b0b;      /* preto total */
   --step:#161615;        /* degrau de tom para separar superfícies */
   --ink:#f3f3f1;         /* texto principal */
@@ -139,6 +151,18 @@ figcaption{font-size:var(--s-small);color:var(--soft);margin-top:12px}
 .builders ul{list-style:none;padding:0;margin:24px 0 32px;display:flex;flex-wrap:wrap;gap:8px}
 .builders li{background:var(--ground);color:var(--accent);font-weight:700;font-size:var(--s-small);padding:8px 12px}
 
+/* perguntas frequentes */
+.faq .wrap{padding-block:var(--gap-section) 0;display:grid;grid-template-columns:minmax(0,4fr) minmax(0,8fr);gap:56px;align-items:start}
+.faq .wrap > *{min-width:0}
+.qa{display:grid;gap:4px}
+.qa details{background:var(--step);padding:22px 24px}
+.qa summary{cursor:pointer;font-weight:700;font-size:var(--s-lead);list-style:none;display:flex;justify-content:space-between;gap:16px}
+.qa summary::-webkit-details-marker{display:none}
+.qa summary::after{content:"+";color:var(--accent);font-weight:700;flex:none;transition:transform .2s ease}
+.qa details[open] summary::after{transform:rotate(45deg)}
+.qa summary:hover{color:var(--accent)}
+.qa p{margin-top:12px;color:var(--soft);max-width:60ch}
+
 /* contato */
 .contact .wrap{padding-block:var(--gap-section) 64px}
 .contact h2{font-size:var(--s-display);line-height:.86;max-width:11em}
@@ -176,7 +200,7 @@ footer p{font-size:var(--s-small);color:var(--soft);display:flex;flex-wrap:wrap;
 
 @media (max-width:960px){
   .top nav{display:none}
-  .hero-row,.about .wrap,.services .intro,.clients .wrap,.builders .wrap{grid-template-columns:minmax(0,1fr);gap:32px}
+  .hero-row,.about .wrap,.services .intro,.clients .wrap,.builders .wrap,.faq .wrap{grid-template-columns:minmax(0,1fr);gap:32px}
   .op{grid-template-columns:minmax(0,1fr);gap:16px}
   .how ol{grid-template-columns:minmax(0,1fr)}
   .shots{grid-template-columns:minmax(0,1fr)}
@@ -193,7 +217,8 @@ footer p{font-size:var(--s-small);color:var(--soft);display:flex;flex-wrap:wrap;
   .logos{grid-template-columns:minmax(0,1fr)}
 }
 </style>
-
+</head>
+<body>
 <a class="skip" href="#inicio">Pular para o conteúdo</a>
 <header class="top">
   <div class="wrap">
@@ -203,6 +228,7 @@ footer p{font-size:var(--s-small);color:var(--soft);display:flex;flex-wrap:wrap;
       <a href="#campo">Em campo</a>
       <a href="#clientes">Clientes</a>
       <a href="#montadoras">Montadoras</a>
+      <a href="#duvidas">Dúvidas</a>
       <a href="#contato">Contato</a>
     </nav>
     <a class="btn" href="https://wa.me/5511961941858?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20LISBON%20e%20quero%20um%20or%C3%A7amento." target="_blank" rel="noopener" aria-label="Pedir orçamento pelo WhatsApp"><svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.2c0-.2-.2-.2-.4-.3z"/></svg><span>Pedir orçamento</span></a>
@@ -323,6 +349,20 @@ footer p{font-size:var(--s-small);color:var(--soft);display:flex;flex-wrap:wrap;
     </div>
   </section>
 
+  <section class="faq" id="duvidas" aria-labelledby="h-faq">
+    <div class="wrap">
+      <h2 id="h-faq" class="rise">Dúvidas frequentes</h2>
+      <div class="qa">
+        <details class="rise" open><summary>Vocês fornecem carregadores para feiras em São Paulo?</summary><p>Sim. Fornecemos carregadores para carga e descarga de caminhões, movimentação de materiais no pavilhão e apoio na montagem e desmontagem do estande, em São Paulo e região.</p></details>
+        <details class="rise"><summary>A LISBON monta estandes?</summary><p>Não. Montamos os produtos, displays e kits que vão dentro do estande. Para montadoras, fornecemos carregadores e equipe de limpeza como apoio.</p></details>
+        <details class="rise"><summary>Vocês têm recepcionistas bilíngues e promotores para eventos?</summary><p>Sim. Temos recepcionistas e promotores receptivos e bilíngues, além de tradutores, para feiras, congressos e eventos corporativos.</p></details>
+        <details class="rise"><summary>Vocês fazem limpeza de estande durante a feira?</summary><p>Sim. Fazemos limpeza de estande antes da abertura, durante os dias de feira e na entrega após a desmontagem.</p></details>
+        <details class="rise"><summary>Vocês gravam vídeo e tiram fotos do estande?</summary><p>Sim. Nosso videomaker faz a cobertura com câmeras profissionais e drone e entrega vídeos prontos para postar nas redes sociais, além das fotos.</p></details>
+        <details class="rise"><summary>Como peço um orçamento?</summary><p>Mande pelo WhatsApp 11 96194-1858 o nome da feira, as datas, o tamanho do estande e o que você precisa. Respondemos com a equipe dimensionada e o orçamento fechado.</p></details>
+      </div>
+    </div>
+  </section>
+
   <section class="contact" id="contato" aria-labelledby="h-cont">
     <div class="wrap">
       <h2 id="h-cont" class="rise">Vamos operar sua próxima feira?</h2>
@@ -356,6 +396,5 @@ document.querySelectorAll('[data-copy]').forEach(function(b){
   });
 });
 </script>
-
 </body>
 </html>

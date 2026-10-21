@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lisbonservice.com.br/sitemap.xml
