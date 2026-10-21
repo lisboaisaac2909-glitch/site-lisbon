@@ -124,6 +124,8 @@ figcaption{font-size:var(--s-small);color:var(--soft);margin-top:12px}
 .away .wrap > div:first-child p{font-size:var(--s-lead);margin:24px 0 32px;max-width:34ch}
 .away h3{margin-bottom:20px}
 .venues{list-style:none;margin:0 0 28px;padding:0;display:grid;gap:4px}
+.venues a{color:inherit;text-decoration:none;display:block}
+.venues a:hover{color:var(--accent)}
 .venues li{background:var(--step);padding:16px 20px;font-family:var(--f-display);font-weight:800;font-size:var(--s-h3);text-transform:uppercase;line-height:1}
 .checks{list-style:none;margin:0;padding:0;display:grid;gap:12px;color:var(--soft)}
 .checks li::before{content:"";display:inline-block;width:10px;height:10px;background:var(--accent);margin-right:12px;vertical-align:1px}
@@ -191,6 +193,9 @@ figcaption{font-size:var(--s-small);color:var(--soft);margin-top:12px}
 
 /* rodapé */
 footer .wrap{padding-block:48px 40px;display:grid;gap:28px}
+.foot-nav{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:var(--s-small)}
+.foot-nav a{color:var(--soft);text-decoration:none}
+.foot-nav a:hover{color:var(--accent)}
 footer .big{width:100%;max-width:1190px;height:auto;opacity:.95}
 footer p{font-size:var(--s-small);color:var(--soft);display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between}
 
@@ -316,7 +321,7 @@ footer p{font-size:var(--s-small);color:var(--soft);display:flex;flex-wrap:wrap;
         <div class="line rise d1"><span class="k">E-mail</span><span class="v" translate="no">contato@lisbonservice.com.br</span><button type="button" data-copy="contato@lisbonservice.com.br">Copiar</button></div>
       </div>
       <h3 style="margin-top:64px">Outros serviços da LISBON</h3>
-      <ul class="others"><li><a href="/carregadores-para-feiras-sao-paulo/">Carregadores para feiras</a></li><li><a href="/montagem-de-produtos-no-estande/">Montagem de produtos</a></li><li><a href="/limpeza-de-estande-sao-paulo/">Limpeza de estande</a></li><li><a href="/video-e-fotos-de-estande/">Vídeo e fotos de estande</a></li></ul>
+      <ul class="others"><li><a href="/carregadores-para-feiras-sao-paulo/">Carregadores para feiras</a></li><li><a href="/montagem-de-produtos-no-estande/">Montagem de produtos</a></li><li><a href="/limpeza-de-estande-sao-paulo/">Limpeza de estande</a></li><li><a href="/video-e-fotos-de-estande/">Vídeo e fotos de estande</a></li><li><a href="/staff-para-feiras-sao-paulo/">Staff para feiras</a></li><li><a href="/equipe-de-apoio-para-montadoras/">Apoio para montadoras</a></li><li><a href="/staff-para-congressos-e-eventos-corporativos/">Congressos e eventos corporativos</a></li><li><a href="/equipe-para-expositores-sao-paulo-expo/">Equipe no São Paulo Expo</a></li><li><a href="/equipe-para-expositores-expo-center-norte/">Equipe no Expo Center Norte</a></li><li><a href="/equipe-para-expositores-distrito-anhembi/">Equipe no Distrito Anhembi</a></li><li><a href="/equipe-para-expositores-transamerica-expo-center/">Equipe no Transamérica Expo Center</a></li></ul>
       <p class="sr" aria-live="polite" id="copied" style="position:absolute;left:-9999px"></p>
     </div>
   </section>
@@ -325,6 +330,7 @@ footer p{font-size:var(--s-small);color:var(--soft);display:flex;flex-wrap:wrap;
 <div class="stripe" aria-hidden="true"></div>
 <footer>
   <div class="wrap">
+    <nav class="foot-nav" aria-label="Páginas de serviço"><a href="/carregadores-para-feiras-sao-paulo/">Carregadores para feiras</a><a href="/staff-para-feiras-sao-paulo/">Staff para feiras</a><a href="/montagem-de-produtos-no-estande/">Montagem de produtos</a><a href="/limpeza-de-estande-sao-paulo/">Limpeza de estande</a><a href="/recepcionistas-e-promotores-para-feiras/">Recepcionistas e promotores</a><a href="/video-e-fotos-de-estande/">Vídeo e fotos de estande</a><a href="/equipe-de-apoio-para-montadoras/">Apoio para montadoras</a><a href="/staff-para-congressos-e-eventos-corporativos/">Congressos e eventos corporativos</a><a href="/equipe-para-expositores-sao-paulo-expo/">São Paulo Expo</a><a href="/equipe-para-expositores-expo-center-norte/">Expo Center Norte</a><a href="/equipe-para-expositores-distrito-anhembi/">Distrito Anhembi</a><a href="/equipe-para-expositores-transamerica-expo-center/">Transamérica Expo Center</a></nav>
     <img class="big" src="/img/logo-lisbon.png" alt="LISBON" width="640" height="147" loading="lazy">
     <p><span>LISBON Agência de Eventos · Taboão da Serra, SP · Atendemos São Paulo e região</span><span>Isaac Lisboa, responsável</span></p>
   </div>
