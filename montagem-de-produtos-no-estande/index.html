@@ -26,7 +26,8 @@
 <meta name="twitter:image" content="https://lisbonservice.com.br/og.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Archivo:wght@400;500;600;700&display=swap">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Archivo:wght@400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Archivo:wght@400;500;600;700&display=swap"></noscript>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "LocalBusiness", "@id": "https://lisbonservice.com.br/#empresa", "name": "LISBON Agência de Eventos", "alternateName": "LISBON", "legalName": "Isaac Mota Lisboa - ME", "taxID": "58.132.438/0001-03", "foundingDate": "2024-11-18", "openingHoursSpecification": {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], "opens": "00:00", "closes": "23:59"}, "url": "https://lisbonservice.com.br/", "image": "https://lisbonservice.com.br/og.jpg", "logo": "https://lisbonservice.com.br/icon-512.png", "telephone": "+55-11-96194-1858", "email": "contato@lisbonservice.com.br", "address": {"@type": "PostalAddress", "addressLocality": "Taboão da Serra", "addressRegion": "SP", "addressCountry": "BR"}, "areaServed": [{"@type": "City", "name": "São Paulo"}, {"@type": "State", "name": "São Paulo"}], "sameAs": ["https://www.instagram.com/lisbonservice_/"]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "name": "Montagem de produtos no estande", "serviceType": "Montagem de produtos", "description": "Montagem de produtos, displays e kits de exposição dentro do estande em feiras de São Paulo. Não montamos estandes: deixamos o seu estande pronto para o público.", "provider": {"@id": "https://lisbonservice.com.br/#empresa"}, "areaServed": {"@type": "City", "name": "São Paulo"}, "url": "https://lisbonservice.com.br/montagem-de-produtos-no-estande/"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "A LISBON monta estandes?", "acceptedAnswer": {"@type": "Answer", "text": "Não. Montamos os produtos, displays e kits que vão dentro do estande. A estrutura do estande fica com a montadora."}}, {"@type": "Question", "name": "Que tipo de produto vocês montam?", "acceptedAnswer": {"@type": "Answer", "text": "Eletrodomésticos, ventiladores, equipamentos, displays e kits de exposição. Já montamos produtos para marcas como Ventisol e Agratto."}}, {"@type": "Question", "name": "Vocês desmontam no fim da feira?", "acceptedAnswer": {"@type": "Answer", "text": "Sim. Desmontamos e reembalamos os produtos para o transporte de volta."}}]}</script>
@@ -253,6 +254,7 @@ footer p{font-size:var(--s-small);color:var(--soft);display:flex;flex-wrap:wrap;
   .logos{grid-template-columns:minmax(0,1fr)}
 }
 
+picture{display:contents}
 /* páginas de serviço */
 .fact{margin-top:18px;color:var(--soft);max-width:44ch}
 .crumb{font-size:var(--s-small);color:var(--soft);margin-bottom:20px}
@@ -297,7 +299,7 @@ footer p{font-size:var(--s-small);color:var(--soft);display:flex;flex-wrap:wrap;
           </div>
         </div>
         <figure>
-          <img src="/img/estande-agratto.jpg" alt="Estande com produtos montados e equipe na entrada" width="1000" height="750" fetchpriority="high">
+          <picture><source srcset="/img/estande-agratto.webp" type="image/webp"><img src="/img/estande-agratto.jpg" alt="Estande com produtos montados e equipe na entrada" width="1000" height="750" fetchpriority="high"></picture>
         </figure>
       </div>
     </div>
