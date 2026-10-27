@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
 Disallow: /wa/
+Disallow: /orcamento/enviado/
 
 Sitemap: https://lisbonservice.com.br/sitemap.xml
